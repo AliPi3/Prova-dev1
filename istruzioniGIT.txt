@@ -1,5 +1,22 @@
+
 GIT INIT --> CREA UNA REPOSITORY LOCALE
 GIT STATUS --> FA UN CONTROLLO DELLO STATO ATTUALE DELLA REPOSITORY 
 git add nomefile --> serve a tracciare un file 
-tracciare: dare una serie di informazione del file (nome autore, ultima data…)
-git add . --> serve a tracciare tutti i file 
+tracciare: dare una serie di informazione del file (nome autore, ultima data, email…)
+git add . --> serve a tracciare tutti i file. è più veloce 
+git commit -m 'messaggio' --> serve a salvare le nuove modifiche aggiungendo un messaggio in cui si deve spiegare un po' cosa è stato modificato
+per configurare l'email e il nome -->  
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+Per verificare se la configurazione è andata bene va scritto -->
+  git config user.email
+  git config user.name
+  git config --global --list (per vedere entrambi)
+
+per condividere la tabella serve un server messo a disposizione da:
+- GitHub (che usiamo noi)
+- bitbucket
+- Gitlab
+
+per unire una repository di GitHub a questa repository va clonata:
+git clone linkdellarepository
