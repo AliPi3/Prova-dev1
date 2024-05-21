@@ -1,0 +1,5 @@
+GIT INIT --> CREA UNA REPOSITORY LOCALE
+GIT STATUS --> FA UN CONTROLLO DELLO STATO ATTUALE DELLA REPOSITORY 
+git add nomefile --> serve a tracciare un file 
+tracciare: dare una serie di informazione del file (nome autore, ultima data…)
+git add . --> serve a tracciare tutti i file 
