@@ -18,5 +18,22 @@ per condividere la tabella serve un server messo a disposizione da:
 - bitbucket
 - Gitlab
 
+CLONARE UNA REPOSITORY REMOTA IN UNA LOCALE
 per unire una repository di GitHub a questa repository va clonata:
 git clone linkdellarepository
+
+COLLEGARE UNA REPOSITORY LOCALE AD UNA REMOTA
+echo "# Prova-dev1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+Questi primi codici l'abbiamo già aggiunti prima
+
+git remote add origin https://github.com/AliPi3/Prova-dev1.git --> per aggiungere il link della repository GitHub
+
+git push -u origin main
+
+PASSAGGI OGNI VOLTA CHE BISOGNA SALVARE UN FILE NELLA REPOSITORY REMOTA
+git add.
+git commit -m 'messaggio'
+git push 
